@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xiaokun.xiusou.demo6">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--<uses-permission android:name="info.xiusou.receiver.RECEIVE"/>-->
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppBaseTheme">
+
+        <!--<service android:name="rexsee.service._Service"/>-->
+
+        <!--<receiver android:name="rexsee.core.receiver._Receiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.intent.action.BOOT_COMPLETED"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <receiver android:name=".Receiver.BootReceiver">
+
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".Receiver.MyReceiver">
+
+            <intent-filter>
+                <action android:name="xiusou"/>
+            </intent-filter>
+
+        </receiver>
+
+        <activity android:name=".SplashActivity"
+                  android:theme="@style/AppBaseTheme1">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity"/>
+        <activity android:name=".MyWebActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ZakerNewsActivity"/>
+        <activity android:name=".ZakerNewsListActivity"/>
+        <activity android:name=".DutyDayActivity"/>
+        <activity android:name=".FangZakerActivity"/>
+        <activity android:name=".WebActivity"/>
+        <activity android:name=".ViewPagerActivity"/>
+        <activity android:name=".RWDemoActivity"/>
+        <activity android:name=".WMActivity"/>
+        <activity android:name=".PassWordActivity"/>
+        <activity android:name=".sixteenToTenActivity"/>
+        <activity android:name=".GuideHelperActivity"/>
+        <activity android:name=".EventConflictActivity"/>
+        <activity android:name=".TopFloatActivity"/>
+        <activity android:name=".CustomViewActivity"/>
+        <activity android:name=".LuckPanActivity"/>
+        <activity android:name=".SmartTimeActivity"/>
+        <activity android:name=".SearchViewActivity"/>
+        <activity android:name=".Intent2Activity"/>
+        <activity android:name=".HtmlActivity"/>
+        <activity android:name=".DownLoadActivity"/>
+
+    </application>
+
+</manifest>

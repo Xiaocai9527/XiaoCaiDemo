@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Demo6</string>
+    <string name="loading">加载中...</string>
+    <string name="ending">--我是有底线的--</string>
+    <string name="title">北京</string>
+    <string name="weather">天气</string>
+    <string name="map">地图</string>
+    <string name="fang">房产</string>
+
+    <string-array name="citys">
+        <item>武汉</item>
+        <item>深圳</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>北京</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link href="./css/news_qa.min.css" rel="stylesheet">
+    <script src="./js/template.js"></script>
+    <script src="./js/img.js"></script>
+
+    <script>
+        window.bazhang.getNewsData();
+        function onDataReceived(args) {
+            var json=JSON.stringify(args);
+            var data = JSON.parse(json);
+            var html = template('contenttpl', data);
+            document.getElementById('contentTop').innerHTML = html;
+        }
+    </script>
+
+    <script id="contenttpl" type="text/html">
+        {{#body}}
+    </script>
+</head>
+
+<body className="">
+    <div id="contentTop"></div>
+</body>
+</html>

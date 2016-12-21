@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/first_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/xsUnion"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="秀搜新闻"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/zaker"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Zaker新闻"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/duty_day"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="值日"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/weather"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="微信精选"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/view_pager"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="懒加载demo"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/WM"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="外卖云神算"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/pass_word"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="密码管理"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<com.github.czy1121.view.RoundButton-->
+        <!--android:id="@+id/trans"-->
+        <!--style="@style/RoundButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="16和10互转"-->
+        <!--app:btnCornerRadius="10dp"-->
+        <!--app:btnPressedRatio="0.8"-->
+        <!--app:btnSolidColor="#3F51B5"/>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/float_button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="right"-->
+    <!--app:fabSize="normal"-->
+    <!--/>-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/xsUnion"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="15dp"-->
+    <!--android:text="秀搜新闻"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/zaker"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="15dp"-->
+    <!--android:text="Zaker新闻"/>-->
+</LinearLayout>

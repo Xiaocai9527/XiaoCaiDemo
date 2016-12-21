@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:stv="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftTextString="秀搜Union"
+        stv:sLineShow="bottom"
+        stv:sRightTextString="（仅供参考，如有偏差，自己负责）"
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftTextString="今天日期:"
+        stv:sLineShow="bottom"
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftTextString="本周周末:"
+        stv:sLineShow="bottom"
+        stv:sRightTextColor="@color/colorAccent"
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftTextString="今日值日:"
+        stv:sLineShow="bottom"
+        stv:sRightTextColor="@color/colorAccent"
+        />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftTextString="明日值日:"
+        stv:sLineShow="bottom"
+        />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/xsUnion"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="15dp"-->
+    <!--android:text="秀搜新闻"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/zaker"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="15dp"-->
+    <!--android:text="Zaker新闻"/>-->
+</LinearLayout>

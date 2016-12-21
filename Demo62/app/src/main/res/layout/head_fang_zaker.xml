@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_200dp"
+        android:layout_marginLeft="5.0dp"
+        android:layout_marginRight="5.0dp">
+
+        <com.hejunlin.superindicatorlibray.LoopViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200dp"
+            android:layout_marginTop="12.5dp"/>
+
+        <!--<com.xiaokun.xiusou.demo6.CustomView.CustomViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dimen_200dp"-->
+        <!--android:layout_marginTop="12.5dp"/>-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_20dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/looper_bottom_bg">
+
+            <com.hejunlin.superindicatorlibray.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dimen_14dp"
+                android:gravity="center"
+                android:orientation="horizontal"/>
+        </FrameLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/txt1"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:sCenterTextString="@string/weather"/>
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/txt2"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:sCenterTextString="@string/map"/>
+
+        <com.allen.library.SuperTextView
+            android:id="@+id/txt3"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:sCenterTextString="@string/fang"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/grey"/>
+</LinearLayout>

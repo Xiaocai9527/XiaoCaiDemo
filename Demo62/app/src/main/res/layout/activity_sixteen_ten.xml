@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7dddc"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="center"
+        android:hint="输入10进制数"
+        android:padding="@dimen/margin_10"
+        android:textColorHint="#aaaaaa"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_ten"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="center"
+        android:padding="@dimen/margin_10"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_bg"
+        android:text="10转16"
+        android:textColor="#829592"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_100dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="center"
+        android:hint="输入16进制数"
+        android:padding="@dimen/margin_10"
+        android:textColorHint="#aaaaaa"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_ten1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="center"
+        android:padding="@dimen/margin_10"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_bg"
+        android:text="16转10"
+        android:textColor="#829592"
+        android:textSize="18sp"/>
+</LinearLayout>

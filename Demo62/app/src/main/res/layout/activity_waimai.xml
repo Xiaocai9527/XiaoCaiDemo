@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.czy1121.view.RoundButton
+            android:id="@+id/title"
+            style="@style/RoundButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="算天算地神算子"
+            android:textSize="20sp"
+            app:btnPressedRatio="0.8"
+            app:btnSolidColor="#7f037f"/>
+
+        <View
+            style="@style/Hline"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="姓名"/>
+
+            <View style="@style/Vline"/>
+
+            <TextView
+                style="@style/name"
+                android:layout_weight="3"
+                android:text="价格(注意重新输入时先点清空)"/>
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="肖坤"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/xiaokun"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="熊维"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/xiongwei"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="陈成"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/chencheng"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="易雨亭"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/yiyuting"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="方静"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/fangjing"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <LinearLayout style="@style/HLinear">
+
+            <TextView
+                style="@style/name"
+                android:text="实付"/>
+
+            <View style="@style/Vline"/>
+
+            <EditText
+                android:id="@+id/shifu"
+                style="@style/price"/>
+
+        </LinearLayout>
+
+        <View style="@style/Hline"/>
+
+        <com.github.czy1121.view.RoundButton
+            android:id="@+id/caculator"
+            style="@style/RoundButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="神算子"
+            android:textSize="20sp"
+            app:btnCornerRadius="10dp"
+            app:btnPressedRatio="0.8"
+            app:btnSolidColor="#7f037f"/>
+
+        <com.github.czy1121.view.RoundButton
+            android:id="@+id/clear"
+            style="@style/RoundButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="清空"
+            android:textSize="20sp"
+            app:btnCornerRadius="10dp"
+            app:btnPressedRatio="0.8"
+            app:btnSolidColor="#7f037f"/>
+    </LinearLayout>
+</ScrollView>
